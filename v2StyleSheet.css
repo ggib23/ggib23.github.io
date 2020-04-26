@@ -92,24 +92,28 @@
     vertical-align: top;
     margin-top: 2em;
     margin-bottom: .2em;
+    font-size: 24px;
   }
   #about-desc {
     vertical-align: top;
     margin-right: 1em;
-    margin-left: 42.9em;
-    font-size: 18px;
+    margin-left: 48em;
   }
   #ed {
     margin-bottom: .2em;
+    font-size: 24px;
   }
   #cert {
     margin-bottom: .2em;
+    font-size: 24px;
   }
   #skill {
     margin-bottom: .2em;
+    font-size: 24px;
   }
   #exp {
     margin-bottom: .2em;
+    font-size: 24px;
   }
   #hometown {
     text-decoration: none;
