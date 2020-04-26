@@ -1,0 +1,294 @@
+/*table styling*/
+  #main {
+    right: 0em;
+    margin-right: 1em;
+    margin-left: 47em;
+  }
+  #main td {
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: top;
+  }
+  #place  {
+    table-layout: fixed;
+    width: 100%;
+  }
+  #place td {
+    vertical-align: top;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 2.5em;
+    padding-left: 1em;
+    width: 30%;
+  }
+  #place td:hover {
+    background-color: black;
+  }
+  #xp-table {
+    table-layout: fixed;
+    width: 100%;
+  }
+  #xp-table td {
+    vertical-align: top;
+    padding-right: 1em;
+    padding-bottom: 1em;  
+    padding-left: 1em;
+    width: 50%;
+  }
+  #xp-table2 {
+    table-layout: fixed;
+    width: 100%;
+  }
+  #xp-table2 td{
+    padding-right: 1em;
+    padding-bottom: 1em;  
+    padding-left: 1em;
+    width: 50%;
+  }
+  #publication {
+    padding-top: 2em;
+  }
+
+/*text styling*/
+  h1 {  color: #1e8cc7; 
+  }
+  h4 {  color: #1e8cc7; 
+        font-family: Georgia, Serif;
+        font-size: 19px; 
+  }
+  #contact {
+    float: right;
+    margin-top: 0em;
+    margin-right: 1em;
+    color: black;
+    font-weight: bold; 
+  }
+  #contact a {
+    color: inherit;
+    text-decoration: none;
+  }
+  #Georgi {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    margin-top: 2.45em;
+    margin-left: .2em; 
+    font-family: Georgia, Serif;
+    font-size: 123px;
+    color: powderblue; 
+  }
+  #Georgi-about {
+    float: left;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: .3em; 
+    padding-left: 1em;
+    font-family: Georgia, Serif;
+    font-size: 28px;
+    color: powderblue; 
+  }
+  #about-title {
+    vertical-align: top;
+    margin-top: 2em;
+    margin-bottom: .2em;
+  }
+  #about-desc {
+    vertical-align: top;
+    margin-right: 1em;
+    margin-left: 48em;
+  }
+  #ed {
+    margin-bottom: .2em;
+  }
+  #cert {
+    margin-bottom: .2em;
+  }
+  #skill {
+    margin-bottom: .2em;
+  }
+  #exp {
+    margin-bottom: .2em;
+  }
+  #hometown {
+    text-decoration: none;
+    font-family: Georgia, Serif;
+    font-size: 18px;    
+    margin-bottom: 0;
+  }
+  #fav {
+    text-decoration: none;
+    font-family: Georgia, Serif;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #travel {
+    text-decoration: none;
+    font-family: Georgia, Serif;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  #knoxville {
+    width: 98%;
+    color: white;
+  }
+  #london {
+    width: 98%;
+    color: white;
+  }
+  #okayama {
+    width: 98%;
+    color: white;
+  }
+
+/*figure styling*/
+  #gg {
+    float: left;
+    margin-top: -1em;
+    width: 30%;
+  }
+  #paper-plane {
+    width: 78%;
+    left: 0em;
+    bottom: 4em;
+    margin-top: -.2em;;
+  }
+  #mountain {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
+  }
+  #ocean {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
+  }
+  #garden {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
+  }
+  #map {
+    width: 90%;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+  }
+  #iacmi {
+    width: 57%;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 1em;
+  }
+  #design {
+    position: absolute;
+    width: 50%;
+    margin: -1em 1em 3em 3.5em;
+    float: left;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+    filter: grayscale(25%);
+  }
+  #blade {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin: -1em 18em 3em 0em;
+    width: 25%;
+    filter: grayscale(95%); 
+  }
+
+/*background styling*/
+  html {
+    height: 100% auto;
+    background-color: white;
+  }
+  body {
+    height: 100% auto;
+    background: linear-gradient(to right, white 50%, khaki 50%);
+  }
+  #body-ab {
+    height: 100% auto;
+    background: linear-gradient(to right, white 66.6%, khaki 33.4%);
+  }
+  .footer-home {
+    left: .5em;
+    bottom: 0em;
+    width: 100%;
+    background-color: powderblue;
+    color: white;
+    text-align: center;
+  }
+  .footer {
+    position: absolute;
+    left: .5em;
+    bottom: 0em;
+    width: 99%;
+    background-color: powderblue;
+    color: white;
+    text-align: center;
+  }
+
+  /*general styling*/
+  #nav-wrap {
+    background-color: black;
+  }
+  #nav {
+    list-style-type: none;
+    padding: 0em;
+    overflow: hidden;
+    background-color: black;
+  }
+  #nav li { float: right;
+  }
+  #nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8em 1.2em;
+    text-align: center;
+    color: white; 
+    font-family: Georgia, Serif;
+    font-size: 18px;
+  }
+  #nav li a:hover {
+    background-color: powderblue;
+  }
+  #xp-list {
+    list-style-type: none;
+    margin-top: 2em;
+    margin-left: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: black;
+  }
+  #xp-list li {
+    float: left;
+    padding-left: 1em;
+  }
+  #xp-list li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8em 1.2em;
+    text-align: center;
+    color: powderblue; 
+    font-family: Georgia, Serif;
+    font-size: 18px;
+  }
+  .active {
+    background-color: powderblue;
+  }  
+  .centerCell { text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .tab { padding-left: 1em; 
+  }
