@@ -85,7 +85,7 @@
     margin-left: .2em; 
     font-family: Georgia, Serif;
     font-size: 123px;
-    color: powderblue; 
+    color: #1e8cc7; 
   }
   #Georgi-about {
     float: left;
@@ -160,13 +160,13 @@
     float: left;
     margin-top: -2.15em;
     margin-left: 0em;
-    margin-bottom: -1.5em;
+    margin-bottom: -3em;
     width: 50%;
   }
   #paper-plane {
     margin-left: 48em;
-    margin-bottom: 2em;
-    margin-top: -9em;;
+    margin-bottom: .5em;
+    margin-top: -6em;;
     width: 55%;
   }
   #mountain {
