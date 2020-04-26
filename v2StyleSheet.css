@@ -69,6 +69,7 @@
     float: right;
     margin-top: 0em;
     margin-right: 1em;
+    margin-bottom: 1em;
     color: black;
     font-weight: bold; 
   }
@@ -160,14 +161,14 @@
     float: left;
     margin-top: -2.15em;
     margin-left: 0em;
-    margin-bottom: -3em;
+    margin-bottom: -2.25em;
     width: 50%;
   }
   #paper-plane {
-    margin-left: 48em;
+    margin-left: 47em;
     margin-bottom: .5em;
     margin-top: -6em;;
-    width: 55%;
+    width: 50%;
   }
   #mountain {
     width: 98%;
