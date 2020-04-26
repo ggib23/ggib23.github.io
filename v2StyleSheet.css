@@ -2,11 +2,20 @@
   #main {
     right: 0em;
     margin-right: 1em;
-    margin-left: 47em;
+    margin-left: 48em;
   }
   #main td {
-    padding-left: 1em;
-    padding-right: 1em;
+    vertical-align: top;
+  }
+  #main-cert {
+    padding-left: 3em;
+  }
+  #main-skill {
+    right: 0em;
+    margin-right: 1em;
+    margin-left: 48em;
+  }
+  #main-skill td {
     vertical-align: top;
   }
   #place  {
@@ -111,7 +120,7 @@
     margin-bottom: .2em;
     font-size: 24px;
   }
-  #exp {
+  #involve {
     margin-bottom: .2em;
     font-size: 24px;
   }
@@ -149,14 +158,15 @@
 /*figure styling*/
   #gg {
     float: left;
-    margin-top: -1em;
+    margin-top: -2em;
+    margin-left: 0em;
     width: 30%;
   }
   #paper-plane {
-    width: 78%;
-    left: 0em;
-    bottom: 4em;
-    margin-top: -.2em;;
+    margin-bottom: 1em;
+    margin-left: -1em;
+    margin-top: -.5em;;
+    width: 65%;
   }
   #mountain {
     width: 98%;
