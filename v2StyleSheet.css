@@ -81,7 +81,7 @@
     float: left;
     top: 0;
     left: 0;
-    margin-top: 2.45em;
+    margin-top: .5em;
     margin-left: .2em; 
     font-family: Georgia, Serif;
     font-size: 123px;
@@ -158,15 +158,16 @@
 /*figure styling*/
   #gg {
     float: left;
-    margin-top: -2em;
+    margin-top: -2.15em;
     margin-left: 0em;
-    width: 30%;
+    margin-bottom: -1.5em;
+    width: 50%;
   }
   #paper-plane {
-    margin-bottom: 1em;
-    margin-left: -1em;
-    margin-top: -.5em;;
-    width: 65%;
+    margin-left: 48em;
+    margin-bottom: 2em;
+    margin-top: -9em;;
+    width: 55%;
   }
   #mountain {
     width: 98%;
