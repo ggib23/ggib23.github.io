@@ -1,11 +1,16 @@
 /*text styling*/
+  h4 {
+      color: #1e8cc7;
+  }
+  body {
+      font-family: Georgia, Serif;
+  }
   #contact {
     float: right;
     margin-top: 1em;
-    margin-right: .5em;
+    margin-right: 0em;
     margin-bottom: 1em;
     color: black;
-    font-weight: bold; 
   }
   #contact a {
     color: inherit;
@@ -25,18 +30,23 @@
   #about-title {
     vertical-align: top;
     margin-top: 2em;
+    font-family: Georgia, Serif;
     font-size: 24px;
   }
   #ed {
+    font-family: Georgia, Serif;
     font-size: 24px;
   }
   #cert {
+    font-family: Georgia, Serif;
     font-size: 24px;
   }
   #skill {
+    font-family: Georgia, Serif;
     font-size: 24px;
   }
   #involve {
+    font-family: Georgia, Serif;
     font-size: 24px;
   }
   
@@ -87,22 +97,9 @@
   }
 
 /*background styling*/
-  .footer-home {
-    left: .5em;
-    bottom: 0em;
-    width: 100%;
-    background-color: powderblue;
-    color: white;
-    text-align: center;
-  }
-  .footer {
-    position: absolute;
-    left: .5em;
-    bottom: 0em;
-    width: 99%;
-    background-color: powderblue;
-    color: white;
-    text-align: center;
+  #footer {
+      background-color: powderblue;
+      color: white;
   }
 
   /*general styling*/
