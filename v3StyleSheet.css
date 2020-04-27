@@ -1,9 +1,10 @@
 /*text styling*/
+  }
   h4 {
-      color: #1e8cc7;
+    font-family: Georgia, Serif;
   }
   body {
-      font-family: Georgia, Serif;
+    font-family: Georgia, Serif;
   }
   #contact {
     float: right;
@@ -25,29 +26,52 @@
     margin-left: .2em; 
     font-family: Georgia, Serif;
     font-size: 123px;
-    color: #1e8cc7; 
+    color: white; 
   }
   #about-title {
     vertical-align: top;
     margin-top: 2em;
     font-family: Georgia, Serif;
     font-size: 24px;
+    color: white;
   }
   #ed {
     font-family: Georgia, Serif;
     font-size: 24px;
+    color: white;
   }
   #cert {
     font-family: Georgia, Serif;
     font-size: 24px;
+    color: white;
   }
   #skill {
     font-family: Georgia, Serif;
     font-size: 24px;
+    color: white;
   }
   #involve {
     font-family: Georgia, Serif;
     font-size: 24px;
+    color: white;
+  }
+  #hometown {
+      color: white;
+  }
+  #fav {
+    color: white;
+  }
+  #travel {
+    color: white;
+  }
+  #knoxville {
+    color: black;
+  }
+  #london {
+    color: black;
+  }
+  #okayama {
+    color: black;
   }
   
 /*figure styling*/
@@ -63,6 +87,24 @@
     margin-bottom: .5em;
     margin-top: -6em;;
     width: 50%;
+  }
+  #mountain {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
+  }
+  #ocean {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
+  }
+  #garden {
+    width: 98%;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: black;
   }
   #map {
     width: 90%;
@@ -98,14 +140,14 @@
 
 /*background styling*/
   #footer {
-      background-color: powderblue;
-      color: white;
+    background-color: powderblue;
+    color: white;
   }
 
   /*general styling*/
   #nav-row {
-      margin-top: 0.5em;
-      color: white;
+    margin-top: 0.5em;
+    color: white;
   }
   #nav-wrap {
     background-color: black;
