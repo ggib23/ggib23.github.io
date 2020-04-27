@@ -1,0 +1,138 @@
+/*text styling*/
+  #contact {
+    float: right;
+    margin-top: 1em;
+    margin-right: .5em;
+    margin-bottom: 1em;
+    color: black;
+    font-weight: bold; 
+  }
+  #contact a {
+    color: inherit;
+    text-decoration: none;
+  }
+  #Georgi {
+    position: fixed;
+    float: left;
+    top: 0;
+    left: 0;
+    margin-top: .5em;
+    margin-left: .2em; 
+    font-family: Georgia, Serif;
+    font-size: 123px;
+    color: #1e8cc7; 
+  }
+  #about-title {
+    vertical-align: top;
+    margin-top: 2em;
+    font-size: 24px;
+  }
+  #ed {
+    font-size: 24px;
+  }
+  #cert {
+    font-size: 24px;
+  }
+  #skill {
+    font-size: 24px;
+  }
+  #involve {
+    font-size: 24px;
+  }
+  
+/*figure styling*/
+  #gg {
+    float: left;
+    margin-top: -2.15em;
+    margin-left: 0em;
+    margin-bottom: -2.25em;
+    width: 50%;
+  }
+  #paper-plane {
+    margin-left: 47em;
+    margin-bottom: .5em;
+    margin-top: -6em;;
+    width: 50%;
+  }
+  #map {
+    width: 90%;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+  }
+  #iacmi {
+    width: 57%;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 1em;
+  }
+  #design {
+    position: absolute;
+    width: 50%;
+    margin: -1em 1em 3em 3.5em;
+    float: left;
+    border-width: .05em;
+    border-style: solid;
+    border-color: black;
+    filter: grayscale(25%);
+  }
+  #blade {
+    position: absolute;
+    float: right;
+    right: 0;
+    margin: -1em 18em 3em 0em;
+    width: 25%;
+    filter: grayscale(95%); 
+  }
+
+/*background styling*/
+  .footer-home {
+    left: .5em;
+    bottom: 0em;
+    width: 100%;
+    background-color: powderblue;
+    color: white;
+    text-align: center;
+  }
+  .footer {
+    position: absolute;
+    left: .5em;
+    bottom: 0em;
+    width: 99%;
+    background-color: powderblue;
+    color: white;
+    text-align: center;
+  }
+
+  /*general styling*/
+  #nav-row {
+      margin-top: 0.5em;
+      color: white;
+  }
+  #nav-wrap {
+    background-color: black;
+  }
+  #nav {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  #nav li { float: right;
+  }
+  #nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.8em 1.2em;
+    text-align: center;
+    color: white; 
+    font-family: Georgia, Serif;
+    font-size: 18px;
+  }
+  #nav li a:hover {
+    background-color: powderblue;
+  }
+  .active {
+    background-color: powderblue;
+  }  
