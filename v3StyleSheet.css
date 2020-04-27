@@ -121,23 +121,19 @@
     border-color: black;
   }
   #map {
-    width: 90%;
+    width: 30%;
     border-width: .05em;
     border-style: solid;
     border-color: black;
   }
   #iacmi {
-    width: 57%;
+    width: 25.4%;
     border-width: .05em;
     border-style: solid;
     border-color: black;
-    margin-bottom: 1em;
   }
   #design {
-    position: absolute;
-    width: 50%;
-    margin: -1em 1em 3em 3.5em;
-    float: left;
+    width: 25.5%;
     border-width: .05em;
     border-style: solid;
     border-color: black;
@@ -151,7 +147,8 @@
     width: 25%;
     filter: grayscale(95%); 
   }
-
+/*slider styling*/
+ 
 /*background styling*/
   #footer {
     background-color: powderblue;
