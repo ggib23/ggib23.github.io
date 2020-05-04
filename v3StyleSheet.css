@@ -92,19 +92,39 @@
     color: black;
   }
 /*text styling - Experience page*/
-  #xp-sub {
+#Georgi-xp {
+  z-index: 0;
+  margin-top: -.7em;
+  margin-bottom: 0;
+  margin-left: -.05em;
+  font-family: Georgia, Serif;
+  font-size: 123px;
+  color: white; 
+}  
+#contact-xp {
+  float: right;
+  margin-top: -5em;
+  margin-right: 0em;
+  margin-bottom: 1em;
+  color: black;
+}
+#contact-xp a {
+  color: inherit;
+  text-decoration: none;
+}
+#xp-sub {
     padding-top: 1em;
     font-family: Georgia, Serif;
     font-size: 28px;
     color: black; 
   }
-  #project-desc {
-    margin: .5em;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    border-width: .2em;
-    border-style: dotted;
-    border-color: powderblue;
+#project-desc {
+  margin: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border-width: .2em;
+  border-style: dotted;
+  border-color: powderblue;
   }
 /*figure styling - Main page*/
   #gg {
@@ -158,9 +178,11 @@
     color: white;
   }
   #nav-wrap {
+    z-index: 1;
     background-color: black;
   }
   #nav {
+    z-index: 2;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
