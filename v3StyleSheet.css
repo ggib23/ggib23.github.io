@@ -35,12 +35,12 @@
     margin-top: 1em;
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: white;
+    color: darkkhaki;
   }
   #ed {
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: white;
+    color: darkkhaki;
   }
   #ed-link a {
     color: inherit;
@@ -49,17 +49,17 @@
   #cert {
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: white;
+    color: darkkhaki;
   }
   #skill {
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: white;
+    color: darkkhaki;
   }
   #involve {
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: white;
+    color: darkkhaki;
   }
 /*Name text styling - About page*/
   #Georgi-about {
@@ -74,19 +74,19 @@
   }
 /*text styling - About page*/
   #hometown {
-    color: white;
+    color: darkkhaki;
   }  
   #knoxville {
     color: black;
   }
   #fav {
-    color: white;
+    color: darkkhaki;
   }
   #london {
     color: black;
   }
   #travel {
-    color: white;
+    color: darkkhaki;
   }
   #okayama {
     color: black;
@@ -99,7 +99,7 @@
   margin-left: -.05em;
   font-family: Georgia, Serif;
   font-size: 123px;
-  color: white; 
+  color: khaki; 
 }  
 #contact-xp {
   float: right;
@@ -116,8 +116,14 @@
     padding-top: 1em;
     font-family: Georgia, Serif;
     font-size: 28px;
-    color: black; 
+    color: darkkhaki; 
   }
+#xp-sub2 {
+    padding-top: 1em;
+    font-family: Georgia, Serif;
+    font-size: 28px;
+    color: darkkhaki; 
+}
 #project-desc {
   margin: .5em;
   padding-top: .5em;
