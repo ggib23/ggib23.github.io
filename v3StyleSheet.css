@@ -98,6 +98,14 @@
     font-size: 28px;
     color: black; 
   }
+  #project-desc {
+    margin: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-width: .2em;
+    border-style: dotted;
+    border-color: powderblue;
+  }
 /*figure styling - Main page*/
   #gg {
     float: left;
@@ -135,7 +143,7 @@
   .exp-img2 img {
     width: 100%;
     padding: .5em;
-    filter: grayscale(100%);
+  /*  filter: grayscale(100%);*/
   }
   .exp-img2 img:hover {
     filter: grayscale(0%);
