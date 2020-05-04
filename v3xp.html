@@ -4,21 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title> v3-portfolio </title>
-    <!-- General Bootstap Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Link to Carousel on Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="v3StyleSheet.css" rel="stylesheet">
     <!-- Link to Font Awesome CDN - Content Delivery Network -->
     <script src="https://kit.fontawesome.com/4be3a457eb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container-fluid">
-        <div class="row pb-3" style="background-color: khaki;" id="nav-row">
+        <div class="row pb-4" id="nav-row" style="background-color: khaki;">
             <div>
                 <h1 id="Georgi-about">Georgiana Saku Blue</h1>
             </div>
@@ -40,45 +35,25 @@
                 </div>
             </div>
         </div>
-        <!-- Carousel -->
-        <div class="row pt-5" style="background-color: khaki;"></div>
-        <div class="row pt-5 pb-5" style="background-color: khaki;">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-              
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="Pictures/projects/global-overlay.jpg" class="center" id="map" alt="Presentation slide on how AT&T's global network presence supports the needs of Time Warner">
-                  </div>
-              
-                  <div class="item">
-                    <img src="Pictures/projects/iacmi.jpg" class="center" id="iacmi" alt="Poster on the 'Degradation of Additive and Compression Molded Composites in an Industrial Scale Composting Facility'">
-                  </div>
-              
-                  <div class="item">
-                    <img src="Pictures/projects/wind-blade2.jpg" class="center" id="blade" alt="Design of a wind turbine blade using SolidWorks">
-                  </div>
-                </div>
-              
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+        <!-- Most Recent Experience -->
+        <div class="row" style="background-color: white;">
+            <div class="col-xl" id="xp-sub">
+                Most Recent Experience<br>
+            </div>
         </div>
-        <!-- Experience Descriptions -->      
-        <div class="row" style="background-color: khaki;">
+        <!-- Image Grid -->
+        <div class="row exp-img p-2 pt-2" style="background-color: white;">
+            <div class="col-xl p-2 pr-2">
+                <img src="Pictures/projects/global-overlay.jpg" id="map"
+                    alt="Presentation slide on how AT&T's global network presence supports the needs of Time Warner">
+            </div>
+            <div class="col-xl p-2">
+                <img src="Pictures/projects/iacmi.jpg" id="iacmi"
+                    alt="Poster on the 'Degradation of Additive and Compression Molded Composites in an Industrial Scale Composting Facility'">
+            </div>
+        </div>
+        <!-- Experience Descriptions -->
+        <div class="row" style="background-color: white;">
             <div class="col-xl">
                 <b>AT&T Technology Development Program - TDP Engineer I</b><br>
                 <i> July 2019 - current </i><br><br>
@@ -87,32 +62,65 @@
                     <li>Leveraged AT&T’s internal mapping application to display Time Warner assets alongside AT&T’s
                         global network presence. The intricate mapping of thousands of sites was needed to showcase
                         AT&T’s ability to deliver to the diverse network needs of Time Warner</li>
-                    <li>Completed an iterative cost analysis to provide a foundational 1Q2020 budget for the Time Warner
-                        network migration from external network providers to AT&T, delivering a cost savings of
+                    <li>Completed an iterative cost analysis to provide a foundational 1Q2020 budget for the Time
+                        Warner network migration from external network providers to AT&T, delivering a cost savings of
                         $562,854.04 </li>
                 </ul>
                 AT&T Peering Expansion Study
                 <ul>
                     <li>Performed a complete data analysis, studying inbound and outbound peering traffic to find an
-                        opportunity for expansion of a Service Node Routing Center to a 9th national peering site</li>
+                        opportunity for expansion of a Service Node Routing Center to a 9th national peering site
+                    </li>
                 </ul>
             </div>
-        </div> </div>
-        <div class="row pt-4 pl-4" style="background-color: khaki;">
+        </div>
+        <div class="row" style="background-color: white;">
             <div class="col-xl">
                 <b>Research Assistant at IACMI - The Composites Institute</b><br>
-                <i>May 2018 - Aug. 2018</i><br><br>
+                <i>May 2018 - Aug. 2018</i><br>
                 <ul>
                     <li>Led research studying the degradation of unique biocomposites to better understand
                         manufacturing’s effect on waste streams and potential applications of biocomposites </li>
-                    <li>Assisted in background research and calculating the embodied energy of recycled composites</li>
+                    <li>Assisted in background research and calculating the embodied energy of recycled composites
+                    </li>
                 </ul>
             </div>
-            <div class="col-xl pt-4">
+            <div class="col-xl">
                 <b>Publications</b><br>
                 Calculating the Embodied Energy of Recycled Composites (Oct. 2018)<br>
                 <i>Komal Kooduvalli, Georgiana Blue, Uday Vaidya, Soydan Ozcan</i><br>
                 <b>Honors</b><br>
-                CAMX 2018 Outstanding Technical Paper Award Winner – Best in Track: Green & Sustainability
+                CAMX 2018 Outstanding Technical Paper Award Winner – Best in Track: Green & Sustainability<br>
             </div>
         </div>
+        <!-- University and Home Projects -->
+        <div class="row" style="background-color: white;">
+            <div class="col-xl" id="xp-sub">
+                University and Home Projects<br>
+            </div>
+        </div>
+        <!-- Image Grid -->
+        <div class="row exp-img2 p-2 pt-2" style="background-color: white;"">
+            <div class=" col-xl p-0">
+                <img src="Pictures/projects/capstone-1.jpg" id="capstone1" alt="My Capstone Project Team">
+                <img src="Pictures/projects/capstone-2.jpg" id="capstone2"
+                    alt="The mechanically powered vaccine cooler my team both designed and built">
+                <img src="Pictures/projects/capstone-4.jpg" id="capstone4"
+                    alt="The piston and crank shaft, which works to cool the vaccine cooler">
+            </div>
+            <div class="col-xl p-0">
+                <img src="Pictures/projects/wind-blade2.jpg" id="blade"
+                    alt="Design of a wind turbine blade using SolidWorks">
+                <img src="Pictures/projects/fixed-sun.jpg" id="sun1" alt="Design of a planetary gear set in SolidWorks">
+                <img src="Pictures/projects/fixed-sun2.jpg" id="sun2" alt="Front profile of a planetary gear set">
+            </div>
+            <div class="col-xl p-0">
+                <img src="Pictures/projects/13ft-turbine.jpg" id="thirteen" alt="3D printed, 13 foot wind turbine blade">
+                <img src="Pictures/projects/knoxville.jpg" id="knox" alt="Laser engaved landscape of Knoxville, Tennessee">
+                <img src="Pictures/projects/collage2.jpg" id="collage" alt="Collage showing my wants and goals">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

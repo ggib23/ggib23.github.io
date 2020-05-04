@@ -74,7 +74,7 @@
   }
 /*text styling - About page*/
   #hometown {
-      color: white;
+    color: white;
   }  
   #knoxville {
     color: black;
@@ -90,6 +90,13 @@
   }
   #okayama {
     color: black;
+  }
+/*text styling - Experience page*/
+  #xp-sub {
+    padding-top: 1em;
+    font-family: Georgia, Serif;
+    font-size: 28px;
+    color: black; 
   }
 /*figure styling - Main page*/
   #gg {
@@ -119,23 +126,19 @@
     border-color: black;
   }
 /*figure styling - Experience page*/
-  #map {
-    width: 50%;
-    border-width: .05em;
+  .exp-img img {
+    width: 100%;
     border-style: solid;
     border-color: black;
+    border-width: .1em;
   }
-  #iacmi {
-    width: 50%;
-    border-width: .05em;
-    border-style: solid;
-    border-color: black;
+  .exp-img2 img {
+    width: 100%;
+    padding: .5em;
+    filter: grayscale(100%);
   }
-  #blade {
-    width: 50%;
-    border-width: .05em;
-    border-style: solid;
-    border-color: black
+  .exp-img2 img:hover {
+    filter: grayscale(0%);
   }
 /*general styling*/
   #footer {
