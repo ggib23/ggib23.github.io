@@ -157,7 +157,7 @@
     width: 100%;
     border-style: solid;
     border-color: black;
-    border-width: .1em;
+    border-width: .2em;
   }
   .exp-img2 img {
     width: 30%;
@@ -167,59 +167,60 @@
     border-width: .1em;
   }
   #xp-square1 {
-    background-color: darkkhaki;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
     border-color: white;
   }  
   #xp-square2 {
-    background-color: white;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
-    border-color: darkkhaki;
+    border-color: white;
   }
   #xp-square3 {
-    background-color: darkkhaki;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
     border-color: white;
   }
   #xp-square4 {
-    background-color: white;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
-    border-color: darkkhaki;
+    border-color: white;
   }
   #xp-square5 {
-    background-color: darkkhaki;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
     border-color: white;
   }
   #xp-square6 {
-    background-color: white;
+    background-color: khaki;
     border-width: .2em;
     border-style: dashed;
-    border-color: darkkhaki;
+    border-color: white;
   }
   #capstone2 {
     float: left;
-    margin-left: 6em;
-    margin-top: -.5em;
+    margin-left: 10em;
+    margin-top: 0em;
   }
   #capstone4 {
     float: right;
-    margin-top: -.5em;
-    margin-right: 8em;
+    width: 18%;
+    margin-top: 0em;
+    margin-right: 12em;
   }
   #thirteen {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1.25em;
+    margin-top: -1.5em;
   }
   #sun2 {
-    width: 50%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
