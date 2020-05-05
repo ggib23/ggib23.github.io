@@ -118,12 +118,6 @@
     font-size: 28px;
     color: darkkhaki; 
   }
-#xp-sub2 {
-    padding-top: 1em;
-    font-family: Georgia, Serif;
-    font-size: 28px;
-    color: darkkhaki; 
-}
 #project-desc {
   margin: .5em;
   padding-top: .5em;
@@ -139,6 +133,11 @@
     margin-left: 0em;
     margin-bottom: -2.25em;
     width: 50%;
+  }
+  #home-right {
+    border-width: .2em;
+    border-style: solid;
+    border-color: khaki;
   }
 /*figure styling - About page*/
   #mountain {
@@ -167,12 +166,76 @@
     border-width: .1em;
   }
   .exp-img2 img {
-    width: 100%;
-    padding: .5em;
-  /*  filter: grayscale(100%);*/
+    width: 30%;
+    margin: .5em;
+    border-style: solid;
+    border-color: white;
+    border-width: .1em;
   }
-  .exp-img2 img:hover {
-    filter: grayscale(0%);
+  #xp-square1 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }  
+  #xp-square2 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }
+  #xp-square3 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }
+  #xp-square4 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }
+  #xp-square5 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }
+  #xp-square6 {
+    background-color: darkkhaki;
+    border-width: .2em;
+    border-style: dashed;
+    border-color: white;
+  }
+  #capstone2 {
+    float: left;
+    margin-left: 6em;
+    margin-top: -.5em;
+  }
+  #capstone4 {
+    float: right;
+    margin-top: -.5em;
+    margin-right: 8em;
+  }
+  #thirteen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.25em;
+  }
+  #sun2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -.5em;
+  }
+  #knox {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 /*general styling*/
   #footer {
