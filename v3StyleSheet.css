@@ -233,7 +233,18 @@
     margin-right: auto;
   }
 /*general styling*/
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap {
+    padding-bottom: 1.5rem;
+  }
   #footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     background-color: powderblue;
     color: white;
   }
